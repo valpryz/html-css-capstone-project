@@ -44,7 +44,7 @@ h1 {
     font-family: cursive;
 }
 
-section, form {
+section, form, section img {
     width: 900px;
     margin: 50px auto;
 }
@@ -67,14 +67,99 @@ p{
 
 
 /* Contact form */
+
+form {
+    width: 800px;
+}
 form fieldset{
     height: 300px;
     font-family: "Jost";
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 40px;
 }
 
-textarea{
+label span {
+    display: flex;
+    flex-direction: column;
+}
 
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.right label:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right label{
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+
+
+textarea {
+    width: 300px;
+    height: 200px;
+}
+/* liens utiles */
+
+.liens-utiles {
+    width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Jost';
+}
+
+ol {
+    list-style: none;
+}
+
+ol li {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+ol li a {
+    color: #E86124;
+    text-decoration: none;
+}
+
+ol li a:hover {
+    text-decoration: underline;
+}
+
+/* creation */
+
+.cards {
+    display: grid;
+    width: 900px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 50px auto;
 }

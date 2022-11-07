@@ -21,22 +21,28 @@
     <form action="">
         <fieldset>
             <legend>Vos infos</legend>
-            <label>
-                Nom:
-                <input type="text" name="name" id="name">
-            </label>
-            <label>
-                Prénom:
-                <input type="text" name="surname" id="surname">
-            </label>
-            <label>
-                Partager vos infos:
-                <input type="checkbox" name="check" id="check">
-            </label>
-            <label>
-                Observations:
-                <textarea name="" id=""></textarea>
-            </label>
+            <div class="contact-form">
+                <div class="right">
+                    <label>
+                        <span>Nom:</span>
+                        <input type="text" name="name" id="name">
+                    </label>
+                    <label>
+                        <span>Prénom:</span>
+                        <input type="text" name="surname" id="surname">
+                    </label>
+                    <label>
+                        <span>Partager vos infos:</span>
+                        <input type="checkbox" name="check" id="check">
+                    </label>
+                </div>
+                <div class="left">
+                    <label>
+                        <span>Observations:</span>
+                        <textarea name="" id=""></textarea>
+                    </label>
+                </div>
+            </div>
             <button type="submit">Envoyer le formulaire</button>
         </fieldset>
     </form>
